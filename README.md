@@ -1,5 +1,7 @@
 # envr
 
+Move to simpson computer technologies research when finished
+
 Create a dedicated environment
 
 ex:
@@ -7,7 +9,10 @@ ex:
 envr new (create a new environment)
 
 
-envr new --cpp
+envr new --cpp --rm_on_close
+
+
+envr open --file {file_name}
 
 
 envr open --vscode (open vscode)
