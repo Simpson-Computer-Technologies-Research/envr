@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "typeinfo": "cpp",
+        "time.h": "c",
+        "TIME.H": "cpp"
+    }
+}
