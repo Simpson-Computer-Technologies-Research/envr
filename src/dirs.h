@@ -37,6 +37,16 @@ char *make_env_dir();
  * @param const char *name
  * @return void
  */
-void remove_dir(const char *name);
+void rm_dir(const char *name);
+
+/**
+ * Rename a directory
+*/
+void rename_dir(const char *old_name, const char *new_name);
+
+/**
+ * Open in vscode
+*/
+void open_in_vscode(const char *dir_name);
 
 #endif // DIRS_H
